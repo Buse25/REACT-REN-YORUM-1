@@ -28,6 +28,7 @@ Basit stillerle arayüzü düzenlemek
 Aslında dosya yapısı my-react projemi termianlde açıp 
 npx create-react-app my-react
 şeklinde oluşturmuştum. Ama değişiklik yaptığım dosyalar yukarda yüklü olanlar. Dediğim gibi tamamen react mantığında geldiğim yere kadar anlayabilmek için uğraştığım bir proje oldu.
+'''
 src/
 ├─ App.js               # Kök component: state ve iş mantığı burada
 ├─ App.css              # Genel stiller
@@ -35,6 +36,7 @@ src/
    ├─ todo.jsx          # Yeni görev ekleme alanı (input + buton)
    ├─ todolist.jsx      # Görevleri listeleyen component
    └─ todo1.jsx         # Tek bir görev satırı (checkbox + sil)
+   '''
 
 ## Getting Started with Create React App
 
