@@ -37,6 +37,8 @@ src/
    ├─ todolist.jsx      # Görevleri listeleyen component
    └─ todo1.jsx         # Tek bir görev satırı (checkbox + sil)
 ```
+<img width="1239" height="734" alt="image" src="https://github.com/user-attachments/assets/73b6cd9e-5eeb-4e94-986a-148e3830be6e" />
+
 
 ## Getting Started with Create React App
 
