@@ -1,0 +1,76 @@
+.App{
+  margin: 10px;
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+.todo{
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  width: 100%;
+  border: 10px solid grey;
+  
+}
+
+.todo-input{
+  width: 80%;
+  margin-top: 20px;
+  height: 50px;
+ 
+}
+
+.todo-button{
+  width: 80%;
+  margin-top: 30px;
+  background-color: yellow;
+  cursor: pointer;
+  height: 30px;
+}
+/* Tek satır todo elemanı */
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  margin-top: 8px;
+  box-sizing: border-box;
+}
+
+.todo-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Metin */
+.todo-content {
+  line-height: 1.4;
+}
+
+/* Tamamlandı görünümü */
+.todo-content.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Sil butonu */
+.todo-delete {
+  background: #ffefef;
+  border: 1px solid #ffd6d6;
+  border-radius: 8px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.todo-delete:hover {
+  background: #ffdcdc;
+}
